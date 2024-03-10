@@ -1,7 +1,6 @@
 ## Silverstripe Recipe Solr search
 
 [![CI](https://github.com/silverstripe/recipe-solr-search/actions/workflows/ci.yml/badge.svg)](https://github.com/silverstripe/recipe-solr-search/actions/workflows/ci.yml)
-[![Silverstripe supported module](https://img.shields.io/badge/silverstripe-supported-0071C4.svg)](https://www.silverstripe.org/software/addons/silverstripe-commercially-supported-module-list/)
 
 This Silverstripe CMS Recipe is designed to enable Solr-based fulltext search. It's specifically designed to work with Silverstripe Cloud Platforms, but may be functional in other environments as well. It's the successor of [`cwp/cwp-recipe-search`](https://github.com/silverstripe/cwp-recipe-search).
 
@@ -19,6 +18,8 @@ You can also opt in to install the following suggested (not required) modules:
    Silverstripe CMS (mostly used with 'fulltextsearch' module)
 
 This can be either added to an existing project or used as a project base for creating a Silverstripe CMS install.
+
+*Unlike other Silverstripe recipes, this recipe does not constrain Silverstripe core dependencies to a particular minor version line.*
 
 ## Installation
 
